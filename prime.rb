@@ -1,5 +1,5 @@
 def prime?(int)
-  if int.negative?()
+  if int.negative?() == true
     false
   end
   (2..(int - 1)).each do |n|
